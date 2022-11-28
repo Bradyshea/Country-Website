@@ -1,0 +1,63 @@
+/*
+
+    selector {
+        property: value;
+        property: value;
+        property; value;
+        ect.
+    }
+
+    Selector options:
+
+    tagname, such as p or img
+    .classname, such as .green or .highlighted
+    tag.class, such as h1.green or p.highlighted
+
+    tagname>tagname
+    .classname>tagname
+    tagname>.classname
+    .classname>.ckassname
+*/
+
+.nav {
+   list-style: none;
+   
+   border-style: groove;
+
+   padding-left: 0;
+
+   width: 50%;
+
+   margin: auto;
+
+   text-align: center;
+}
+
+.nav>li{
+    border-style: groove;
+
+    display: inline-block;
+}
+
+img{
+    display: block;
+    width: 33%;
+    margin-left: 33%;
+}
+
+body {
+    background-image: url(Images/france\ flag.png);
+    background-size: 100%
+}
+
+p{ 
+    color: rgb(255, 143, 189);
+    background-color: black;
+    margin: 50px;
+}
+
+h1{
+    background-color: navy;
+    background-size: 50% ;
+    color: white;
+}
